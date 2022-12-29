@@ -3,113 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="/style.css" />
     <title>Frontend Mentor | Social proof section</title>
-
   </head>
   <body>
-    <main>
-      <div>
-        <div>
-          <h1>10,000+ of our users love our products.</h1>
-          <p> We only provide great products combined with excellent customer service.
-            See what our satisfied customers are saying about our services.</p>
+    <main class="container">
+      <div class="wrapper wrapper--flex">
+        <h1 class="wrapper__title">10,000+ of our users love our products.</h1>
+        <p class="wrapper__text">
+          We only provide great products combined with excellent customer
+          service. See what our satisfied customers are saying about our
+          services.
+        </p>
+      </div>
+      <div class="wrapper">
+        <div class="wrapper__info">
+          <div class="info__star">
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+          </div>
+
+          <p class="info__text"><strong>Rated 5 Stars in Reviews</strong></p>
         </div>
-       <div>
-        <div>
-          <div>
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
+        <div class="wrapper__info">
+          <div class="info__star">
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
           </div>
-          
-          <p><strong>Rated 5 Stars in Reviews</strong></p>
+          <p class="info__text">
+            <strong>Rated 5 Stars in Report Guru</strong>
+          </p>
         </div>
-        <div>
-          <div>
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
+        <div class="wrapper__info">
+          <div class="info__star">
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
+            <img src="/images/icon-star.svg" alt="star" class="star__img" />
           </div>
-          <p><strong>Rated 5 Stars in Report Guru</strong></p>
-        </div>
-        <div>
-          <div>
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-            <img src="/images/icon-star.svg" alt="" class="star__img">
-          </div>
-          <p><strong>Rated 5 Stars in BestTech</strong></p>
-        </div>
-       </div>
-        <div>
-          <div>
-<div>
-  <img src="/images/image-colton.jpg" alt="picture-perfil">
-  <p>Colton Smith </p>
-  <p> Verified Buyer</p>
-</div>
-<p>"We needed the same printed design as the one we had ordered a week prior.
-  Not only did they find the original order, but we also received it in time.
-  Excellent!"</p>
-          </div>
-          <div>
-<div>
-  <img src="/images/image-irene.jpg" alt="picture-perfil">
-  <p> Irene Roberts</p>
-  <p>Verified Buyer</p>
-</div>
-<p>"Customer service is always excellent and very quick turn around. Completely
-  delighted with the simplicity of the purchase and the speed of delivery."</p>
-          </div>
-          <div>
-<div>
-  <img src="/images/image-anne.jpg" alt="picture-perfil">
-  <p>Anne Wallace </p>
-  <p>Verified Buyer</p>
-</div>
-<p>"Put an order with this company and can only praise them for the very high
-  standard. Will definitely use them again and recommend them to everyone!"</p>
-          </div>
+          <p class="info__text"><strong>Rated 5 Stars in BestTech</strong></p>
         </div>
       </div>
-
-
+      <div class="wrapper">
+        <div class="card">
+          <div class="card__perfil">
+            <img src="/images/image-colton.jpg" alt="picture-perfil" class="perfil__imagen"/>
+            <div>
+              <p class="perfil__text">Colton Smith</p>
+              <p class="perfil__text--pink">Verified Buyer</p>
+            </div>
+           
+          </div>
+          <p class="perfil__text">
+            "We needed the same printed design as the one we had ordered a week
+            prior. Not only did they find the original order, but we also
+            received it in time. Excellent!"
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__perfil">
+            <img src="/images/image-irene.jpg" alt="picture-perfil" class="perfil__imagen"/>
+            <div>
+              <p class="perfil__text">Irene Roberts</p>
+              <p class="perfil__text--pink">Verified Buyer</p>
+            </div>
+            
+          </div>
+          <p class="perfil__text">
+            "Customer service is always excellent and very quick turn around.
+            Completely delighted with the simplicity of the purchase and the
+            speed of delivery."
+          </p>
+        </div>
+        <div class="card">
+          <div class="card__perfil"> 
+            <img src="/images/image-anne.jpg" alt="picture-perfil" class="perfil__imagen"/>
+            <div>
+              <p class="perfil__text">Anne Wallace</p>
+              <p class="perfil__text--pink">Verified Buyer</p>
+            </div>
+            
+          </div>
+          <p class="perfil__text">
+            "Put an order with this company and can only praise them for the
+            very high standard. Will definitely use them again and recommend
+            them to everyone!"
+          </p>
+        </div>
+      </div>
     </main>
-    
-
-   
-    
-    
-  
-    
-    
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    
   </body>
 </html>

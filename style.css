@@ -1,26 +1,98 @@
 * {
-margin: 0;
-box-sizing: border-box;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
---Very-Dark-Magenta: hsl(300, 43%, 22%);
---Soft-Pink: hsl(333, 80%, 67%);
---Dark-Grayish-Magenta: hsl(303, 10%, 53%);
---Light-Grayish-Magenta: hsl(300, 24%, 96%);
---White: hsl(0, 0%, 100%);
-font-size: 62.5%;
+  --Very-Dark-Magenta: hsl(300, 43%, 22%);
+  --Soft-Pink: hsl(333, 80%, 67%);
+  --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+  --Light-Grayish-Magenta: hsl(290, 30%, 96%);
+  --White: hsl(0, 0%, 100%);
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'League Spartan', sans-serif;
-    width: 100%;
-   
+  font-family: "League Spartan", sans-serif;
+ 
+  background-color: var(--White);
 }
 
 
-.star__img{
-    background-image: url(/images/icon-star.svg);
-    background-repeat: repeat-x;
-    
+
+.wrapper {
+  padding: 3rem 5rem;
+}
+
+.wrapper--flex {
+  text-align: center;
+}
+
+.wrapper__title {
+  color: var(--Very-Dark-Magenta);
+
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.wrapper__text {
+  color: var(--Dark-Grayish-Magenta);
+  font-weight: lighter;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
+.wrapper__info {
+  border-radius: 0.5rem;
+  background-color: var(--Light-Grayish-Magenta);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.info__star {
+  padding: 0.5rem 0;
+}
+
+.info__text {
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  color: var(--Very-Dark-Magenta);
+}
+
+.card {
+    background-color: var(--Very-Dark-Magenta);
+    border-radius: 1.5rem;
+    padding: 2rem 3rem;
+    margin-bottom: 1.5rem;
+}
+.card__perfil{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.perfil__text {
+    color: var(--White);
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.perfil__text--pink {
+    color: var(--Soft-Pink);
+    font-size: 1.4rem;
+    margin-top: .2rem;
+}
+
+.perfil__imagen {
+    width: 5rem;
+    border-radius: 50%;
+}
+
+@media (min-width: 450px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 30rem);
+      }
+
 }
