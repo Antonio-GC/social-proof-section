@@ -14,5 +14,13 @@ font-size: 62.5%;
 
 body {
     font-family: 'League Spartan', sans-serif;
+    width: 100%;
    
+}
+
+
+.star__img{
+    background-image: url(/images/icon-star.svg);
+    background-repeat: repeat-x;
+    
 }
